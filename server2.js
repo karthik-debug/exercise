@@ -114,9 +114,9 @@ app.post('/save',(req,res)=>{
     if(qday== -1){
         error['day error'] = 'Please send a valid day as ' + days.join()
     }
-    if(error){
-      return   res.send (error)
-    }
+   if(error['day error'] ||error['Secoonds Error'] ||   error['Hour Error'] || error['Minutes Error'] || error['time error']){
+        return   res.send (error)
+      }
     
     var date = new Date()
     var day = date.getDay()
