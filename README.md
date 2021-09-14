@@ -18,14 +18,18 @@ prerequisites before starting server
 
 
 1. server.js apis instructions 
-     a) baseURL + /upload/csv  is for uploading csv  
+
+        a) baseURL + /upload/csv  is for uploading csv  
              add file to the form-data with key name as "file"
              post method
-     b) baseURL + /search/single?key="username"  is for single user name search
+             
+        b) baseURL + /search/single?key="username"  is for single user name search
               pass username as query params
               get method
-     c) baseURL + /search/allData is for getting aggregated data
+              
+        c) baseURL + /search/allData is for getting aggregated data
               get method 
+              
 2. serve2.js apis instructions      
 
      a) baseURL + /save?time=HH:MM:SS&day=tuesday&msg=goodmorning
