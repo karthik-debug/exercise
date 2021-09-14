@@ -12,8 +12,8 @@ prerequisites before starting server
         install node
         install mongodb and make sure it is up and running on 27017 port if not change the port to mongodb port number 
         run "npm install" in the root folder
-        node server.js to start task 1 server from root folder
-        node server2.js to  start task 2 server from root folder
+        node server.js to start task 1 server from root folder(port number 3000) 
+        node server2.js to  start task 2 server from root folder(port number 3001)
             
 
 
